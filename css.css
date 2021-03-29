@@ -1,0 +1,281 @@
+body {
+    background-image: url(image/wall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+/*เเถบเลือกหน้า*/
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 90%;
+}
+
+ul.nav li a:hover {
+    background-color: black;
+}
+
+ul.nav li a {
+    color: white;
+    padding: 24px;
+    text-decoration: none;
+    float: right;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*index.html*/
+
+.banner {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 220px;
+}
+
+.banner p {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 144px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1:hover {
+    color: #333;
+}
+
+.banner a {
+    margin-top: 20px;
+    border: none;
+    background-color: snow;
+    color: black;
+    padding: 13px 20px;
+    border-radius: 50px;
+    font-family: 'Poiret One', cursive;
+}
+
+.banner a:hover {
+    background-color: #ffcc99;
+    box-shadow: .2em .2em .05em gray;
+}
+
+
+/*aboutme.html */
+
+.profile {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: rgba(210, 105, 30, 0.6);
+    border-style: hidden;
+    border-radius: 0.5em;
+    float: left;
+    margin-top: 50px;
+    margin-left: 380px;
+    padding: 15px 30px 15px 30px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.profile:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.prof1 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ff {
+    font-size: 35px;
+}
+
+.ff:hover {
+    color: darkslateblue;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rightobj {
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rightobj:hover {
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 420px;
+}
+
+.seticon {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+}
+
+.seticon a {
+    text-decoration: none;
+    color: black;
+}
+
+.seticon img {
+    margin-bottom: 10px;
+}
+
+.seticon p {
+    font-family: 'Kanit', sans-serif;
+    display: inline;
+    position: relative;
+    top: -50px;
+    padding: 20px;
+}
+
+
+/*education.html */
+
+.schoollogo {
+    float: left;
+}
+
+.schoollogo img {
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.school {
+    position: absolute;
+    margin: 80px 50px 50px 700px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+.school p {
+    margin: 50px;
+}
+
+.school b:hover {
+    color: green;
+}
+
+.school p:hover {
+    color: brown;
+}
+
+.line {
+    float: right;
+    margin-right: 900px;
+    margin-top: 80px;
+    display: inline-flex;
+}
+
+
+/*skills.html */
+
+.skill {
+    font-family: 'Kanit', sans-serif;
+}
+
+.skill h1 {
+    float: left;
+    margin: 50px 0 0 50px;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.skill img {
+    position: relative;
+    float: right;
+    right: 50px;
+    top: 300px;
+}
+
+.sklogo {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.sklogo ul {
+    list-style: none;
+}
+
+.sklogo li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.sklogo li:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sklogo p {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.logolf {
+    margin-left: 100px;
+}
+
+
+/*career.html */
+
+#career {
+    font-family: 'Kanit', sans-serif;
+    margin-left: 100px;
+}
+
+#career h1 {
+    font-size: 50px;
+}
+
+#career h1:hover {
+    font-size: 65px;
+    color: darkblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#career h2 {
+    font-size: 30px;
+}
+
+#career h2:hover {
+    font-size: 30px;
+    color: darkgreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#career p {
+    font-size: 18px;
+}
+
+#career img:hover {
+    width: 420px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contentcre {
+    float: right;
+    margin-top: -50px;
+    margin-right: 150px;
+}
